@@ -1,0 +1,9 @@
+---
+- name: This is a directory list script
+  hosts: 192.168.50.69
+  tasks:
+    - name: List files in home directory
+      shell: 'ls -l /'
+      register: command_output
+      - debug:
+        var: command_output.stoud_lines
