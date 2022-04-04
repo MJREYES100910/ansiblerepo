@@ -5,5 +5,5 @@
     - name: List files in home directory
       shell: 'ls -l /'
       register: command_output
-      - debug:
+    - debug:
         var: command_output.stoud_lines
