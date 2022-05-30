@@ -4,5 +4,5 @@
   tasks:
     - name: Hello Message
       copy:
-        content: hello worldn
+        content: hello world /n
         dest: /tmp/testfile.txt
