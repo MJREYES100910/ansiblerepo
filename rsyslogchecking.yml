@@ -1,5 +1,5 @@
 - name: update packages
-  hosts: "rhelvm1.local"
+  hosts: 192.168.50.69
   vars:
     insights_issues: "--advisory RHSA-2022:4799"
     requires_reboot: "false"
@@ -47,7 +47,7 @@
         insights_needs_reboot: "{{requires_reboot}}"
 
 - name: run insights
-  hosts: "rhelvm1.local"
+  hosts: 192.168.50.69
   become: true
   gather_facts: false
   vars:
