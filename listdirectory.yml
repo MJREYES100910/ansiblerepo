@@ -1,6 +1,7 @@
 ---
 - name: This is a directory list script
   hosts: 192.168.50.69
+  become: yes
   #sudoer: yes
   tasks:
     - name: List files in home directory
