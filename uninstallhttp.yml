@@ -15,7 +15,7 @@
     service:
       name: httpd 
       state: stopped
-   - name: Uninstall apache packages 
+  - name: Uninstall apache packages 
     yum:
       name: httpd
       state: absent
