@@ -1,6 +1,6 @@
 ---
 - name: This is a directory list script
-  hosts: 192.168.50.69
+  hosts: server1
   become: yes
   #become_user: 
   #sudoer: yes
