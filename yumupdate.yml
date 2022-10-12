@@ -1,6 +1,6 @@
 ---
 - name: This update a rhel server
-  hosts: RHEL inventory
+  hosts: rhserver1
   tasks:
   - name: Update all package
     yum:
