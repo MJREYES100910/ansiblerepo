@@ -1,5 +1,5 @@
 ---
- - name: "Sync {{ repo }} repository"
+ - name: "Sync Red Hat repository"
       redhat.satellite.repository_sync:
         username: admin
         password: password
