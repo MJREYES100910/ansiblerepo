@@ -1,0 +1,16 @@
+ ---
+ - hosts: rhsatellite
+  vars:
+    content_view: RHEL
+    product: "Red Hat Enterprise Linux Server"
+    repo: "Red Hat Enterprise Linux 8 for x86_64 - BaseOS RPMs 8"
+    repo_variants:
+      - releasever: "8Server"
+        basearch: "x86_64"
+    organization: VSTECS_Phils_Inc
+  tasks:
+  - name: "Sync {{ repo }} repository"
+      redhat.satellite.repository_sync:
+        repository: "{{ repo }}"
+        product: "{{ product }}"
+        organization: "{{ organization }}"
