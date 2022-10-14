@@ -6,7 +6,7 @@
      redhat.satellite.repository_sync:
         username: admin
         password: password
-        server_url: https://192.168.50.114
+        server_url: https://rhelsatellite.mf.local
         repository: Red Hat Enterprise Linux 8 for x86_64 - AppStream (RPMs)
         product: Red Hat Enterprise Linux Server
         organization: VSTECS_Phils_Inc
