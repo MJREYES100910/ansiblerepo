@@ -1,6 +1,8 @@
 ---
  - name: "Sync Red Hat repository"
-      redhat.satellite.repository_sync:
+   tasks:
+   - name: "Sync Red Hat repository"
+     redhat.satellite.repository_sync:
         username: admin
         password: password
         server_url: https://192.168.50.114
