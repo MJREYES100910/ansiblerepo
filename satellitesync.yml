@@ -1,6 +1,6 @@
 ---
  - name: "Sync Red Hat repository"
-   hosts: rhsatellite
+   hosts: rhserver1
    tasks:
    - name: "Sync Red Hat repository"
      redhat.satellite.repository_sync:
