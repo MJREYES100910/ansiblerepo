@@ -1,9 +1,6 @@
 ---
 - name: This update a rhel server
-  hosts: 
-    rhserver1
-    rhserver2
-    rhserver3
+  hosts: rhelvms
   tasks:
   - name: Update all package
     yum:
