@@ -4,9 +4,9 @@
    tasks:
    - name: "Sync Red Hat repository"
      redhat.satellite.repository_sync:
+        server_url: "https://rhelsatellite.mf.local"
         username: "admin"
         password: "password"
-        server_url: "https://rhelsatellite.mf.local"
         repository: "Red Hat Enterprise Linux 8 for x86_64 - AppStream RPMs 8"
         product: "Red Hat Enterprise Linux Server"
         organization: "VSTECS_Phils_Inc"
