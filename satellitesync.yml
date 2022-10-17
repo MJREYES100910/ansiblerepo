@@ -7,6 +7,6 @@
         username: "admin"
         password: "password"
         server_url: "https://rhelsatellite.mf.local"
-        repository: "Red Hat Satellite Maintenance 6.11 for RHEL 8 x86_64 RPMs"
+        repository: "Red Hat Enterprise Linux 8 for x86_64 - AppStream RPMs 8"
         product: "Red Hat Enterprise Linux Server"
         organization: "VSTECS_Phils_Inc"
