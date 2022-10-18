@@ -7,6 +7,6 @@
         server_url: "https://rhelsatellite.mf.local"
         username: "admin"
         password: "password"
-        repository: "Red Hat Enterprise Linux 8 for x86_64 - AppStream RPMs 8"
+        repository: "NewContent"
         product: "Red Hat Enterprise Linux Server"
         organization: "VSTECS_Phils_Inc"
