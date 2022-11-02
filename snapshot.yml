@@ -13,5 +13,5 @@
       folder: "/Solution Center/RHEL"
       name: "newvm"
       state: present
-      snapshot_name: "rheltemplate"
+      snapshot_name: "newsnapshot"
       delegate_to: localhost
