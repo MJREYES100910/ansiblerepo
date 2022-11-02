@@ -1,0 +1,17 @@
+---
+- name: Create a VM Snapshot
+  hosts: localhost
+  connection: local
+  gather_facts: no
+  -tasks:
+  - name: Creating snapshot
+    vmware_guest_snapshot:
+      hostname: 192.168.50.10
+      username: administrator@vsphere.local
+      password: P@ssw0rd
+      datacenter: "Solution Center"
+      folder: "/Solution Center/RHEL"
+      name: "newvm"
+      state: present
+      snapshot_name: "rheltemplate"
+      delegate_to: localhost
