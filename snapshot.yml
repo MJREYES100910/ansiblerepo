@@ -9,7 +9,7 @@
     source: https://galaxy.ansible.com
   tasks:
   - name: Creating snapshot
-      vmware_guest_snapshot:
+      community.vmware.vmware_guest_snapshot:
       hostname: 192.168.50.10
       username: administrator@vsphere.local
       password: P@ssw0rd
