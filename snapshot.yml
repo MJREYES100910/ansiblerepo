@@ -15,7 +15,7 @@
       password: P@ssw0rd
       datacenter: "Solution Center"
       folder: "/Solution Center/RHEL"
-      name: "newvm"
+      name: "RHEL8 VM1"
       state: present
       snapshot_name: "newsnapshot"
       delegate_to: localhost
