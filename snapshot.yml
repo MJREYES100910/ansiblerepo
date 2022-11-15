@@ -4,7 +4,9 @@
   connection: local
   gather_facts: no
   collections:
-  - community.vmware
+  - name: community.vmware
+    version: 3.1.0
+    source: https://galaxy.ansible.com
   tasks:
   - name: Creating snapshot
       vmware_guest_snapshot:
