@@ -16,4 +16,4 @@
         name: "RHEL8 VM1"
         state: present
         snapshot_name: "newsnapshot"
-        delegate_to: localhost
+  #      delegate_to: localhost
