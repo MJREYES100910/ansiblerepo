@@ -1,5 +1,5 @@
 ---
-- name: This update a windows server
+- name: This task will copy a single folder
   hosts: winserver1
   tasks:
   - name: Copy a single folder
