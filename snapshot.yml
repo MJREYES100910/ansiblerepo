@@ -3,8 +3,8 @@
   hosts: localhost
   connection: local
   gather_facts: no
-  collections:
-    - requirements
+#  collections:
+#    - requirements
   tasks:
     - name: Creating snapshot
       community.vmware.vmware_guest_snapshot:
