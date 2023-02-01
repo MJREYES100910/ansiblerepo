@@ -16,4 +16,5 @@
         name: "RHEL8 VM1"
         state: present
         snapshot_name: "newsnapshot"
+        validate_certs: false
   #      delegate_to: localhost
