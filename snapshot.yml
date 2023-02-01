@@ -13,7 +13,7 @@
         password: P@ssw0rd
         datacenter: "Solution Center"
         folder: "/Solution Center/RHEL"
-        name: "RHEL8 VM1"
+        name: "RHEL VM1"
         state: present
         snapshot_name: "newsnapshot"
         validate_certs: false
