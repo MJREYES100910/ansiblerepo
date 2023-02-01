@@ -12,7 +12,7 @@
         username: administrator@vsphere.local
         password: P@ssw0rd
         datacenter: "Solution Center"
-        folder: "/Solution Center/DELL Simplivity"
+        folder: "/Solution Center/"
         name: "RHEL8 VM1"
         state: present
         snapshot_name: "newsnapshot"
