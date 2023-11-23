@@ -3,13 +3,13 @@
   hosts: winserver1
   tasks:
   - name: Install all security, critical, and rollup updates without a scheduled task
-    win_reboot:
-    #ansible.windows.win_updates:
-    #  category_names:
-   #     - SecurityUpdates
-   #     - CriticalUpdates
-  #      - UpdateRollups
-    #  reboot: yes
+    #win_reboot:
+    ansible.windows.win_updates:
+      category_names:
+        - SecurityUpdates
+        - CriticalUpdates
+        - UpdateRollups
+      reboot: yes
 #  - name: Install all updates and reboot as many times as needed
 #  ansible.windows.win_updates:
 #    category_names: '*'
